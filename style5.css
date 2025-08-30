@@ -299,22 +299,18 @@ body {
 }
 .pic {
   position: absolute;
-  bottom: 200px;   /* cách lề dưới */
+  bottom: 205px;   /* cách lề dưới */
   right: 360px;    /* cách lề phải */
 }
 
 .pic img {
   width: 580px;   /* chỉnh kích thước ảnh */
-  height: 310px;
+  height: 320px;
   border-radius: 20px;
 }
 @media (max-width: 490px){
   .pic {
     display: none;
 }
-  .pic {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
 
 }
