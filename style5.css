@@ -305,7 +305,7 @@ body {
 
 .pic img {
   width: 580px;   /* chỉnh kích thước ảnh */
-  height: 328px;
+  height: 310px;
   border-radius: 20px;
 }
 @media (max-width: 490px){
@@ -315,5 +315,6 @@ body {
   .pic {
     grid-template-columns: repeat(1, 1fr);
   }
+
 
 }
